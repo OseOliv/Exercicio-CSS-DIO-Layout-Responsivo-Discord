@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+}
+body {
+    
+    margin: 0 auto ;
+    padding: 0;
+
+    /*HEADER */ 
+}
+header {
+    display: flex;
+    max-width: 1280px;  
+    background-image: url('./img/HeaderBackground.png');
+    height: 459px ; 
+    margin: 0 auto;
+}
+.topbar {
+    display: block;
+    padding-top: 75px;
+    margin: 0 auto;
+    max-width: 100%;
+    color: white;  
+    text-align: center;
+    align-content: center;
+} 
+.topbar h1 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 56px;
+    font-family: 'Luckiest Guy';
+    line-height: 56px;
+    text-align: center;
+    font-weight: 400;
+}
+.topbar p {
+    display: block;
+    max-width: 757px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 22px;
+    color: white;
+    order: 1;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    margin-top: 25px;
+}
+.topbarbutton {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 25px ;
+    
+}
+.topbarbutton #windows {
+    display: flex;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: center;
+    color: #23272a;
+    background: #ffffff;
+    height: 44px;
+    border-radius: 50px;   
+    border: 0px;
+    align-items: center;
+    padding: 5px 23px ;
+}
+.topbarbutton #navegador {
+    display: flex;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    background: #23272a;
+    height: 44px;
+    border-radius: 50px;
+    border: 0px;
+    align-items: center;
+    padding: 5px 23px ;
+}
+@media (max-width: 768px)
+{
+  .topbarbutton button
+   {
+    width: 100%;
+    justify-content: center;
+    margin: 2px 10px;
+   }
+   .topbarbutton {
+    margin-top: 0px;
+    flex-wrap: wrap;
+    gap: 0;
+   }
+   .topbar h1 {
+    font-size: 36px;
+    margin: 0 10px;
+   }
+   }
+   .topbartexto2 {
+    height: 132px;
+   }
+   
+
+    /*MAIN*/
+.section1 {
+    display: flex;
+    max-width: 1280px;
+    background: white;
+    margin: 0 auto;  
+    flex-wrap: wrap;  
+    padding: 10px 0px;
+    flex-direction:  row;
+}
+.s1 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 25px 70px;
+    max-width: 100%;
+
+}
+.s1cont {
+    flex: 2 1 100px;
+    display: block;
+    padding: 0 65px 40px;
+   
+}
+.s1img {
+    
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+    max-width: 100%;
+
+}
+.s1 h2 {
+    font-family: 'Open Sans';    
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 5px;
+    margin-right: 75px;
+}
+.s1 p {
+    margin-top: 15px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+}
+@media (max-width: 768px) {
+   .s1img {
+    padding: 0px;
+    margin: 0px;
+   }
+    #img {
+        height: 70%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+  .s1 {
+    flex-wrap: wrap;
+  }
+  .s1 h2 {
+    text-align: start;
+    justify-content: space-between;
+    font-size: 24px;
+    margin: 0 10px;
+    width: 350px;
+  }
+  .s1 p {
+    text-align: start;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: 32px 10px;
+    width: 350px;
+  }
+ 
+}
+
+.section2 {
+    display: flex;
+    max-width: 1280px;
+    background: white;
+    margin: 0 auto;  
+    flex-wrap: wrap;  
+    padding: 10px 0px;
+    
+}
+.s2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 25px 70px;
+    max-width: 100%;
+
+}
+.s2cont {
+    flex: 2 1 100px;
+    display: block;
+    padding: 0 65px 40px;
+   
+}
+.s2img {
+    
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+    max-width: 100%;
+
+}
+.s2 h2 {
+    font-family: 'Open Sans';    
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 5px;
+    margin-right: 75px;
+    margin-top: 105px;
+
+}
+.s2 p {
+    margin-top: 15px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+}
+@media (max-width: 768px) {
+    .s2img {
+     padding: 0px;
+     margin: 0px;
+    }
+     #img {
+         height: 70%;
+         margin-top: 0px;
+         margin-bottom: 0px;
+     }
+   .s2 {
+     flex-wrap: wrap;
+   }
+   .s2 h2 {
+     text-align: start;
+     justify-content: space-between;
+     font-size: 24px;
+     margin: 0 10px;
+     width: 350px;
+     gap: 0px;
+   }
+   .s2 p {
+     text-align: start;
+     justify-content: space-between;
+     font-size: 16px;
+     margin: 32px 10px;
+     width: 350px;
+     gap: 0px;
+   }
+}
+   
+.section3 {
+    display: flex;
+    max-width: 1280px;
+    background: white;
+    margin: 0 auto;  
+    flex-wrap: wrap;  
+    padding: 10px 0px;
+    flex-direction:  row;
+}
+.s3 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 25px 70px;
+    max-width: 100%;
+
+}
+.s3cont {
+    flex: 2 1 100px;
+    display: block;
+    padding: 0 65px 40px;
+}
+.s3img {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+    max-width: 100%;
+}
+.s3 h2 {
+    font-family: 'Open Sans';    
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 5px;
+    margin-right: 75px;
+    margin-top: 100px;
+}
+.s3 p {
+    margin-top: 15px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media (max-width: 768px) {
+   .s3img {
+    padding: 0px;
+    margin: 0px;
+   }
+    #img {
+        height: 70%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+  .s3 {
+    flex-wrap: wrap;
+  }
+  .s3 h2 {
+    text-align: start;
+    justify-content: space-between;
+    font-size: 24px;
+    margin: 0 10px;
+    width: 350px;
+  }
+  .s3 p {
+    text-align: start;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: 32px 10px;
+    width: 350px;
+  }
+}
+
+.section4 {
+    display: flex;
+    max-width: 1280px;
+    background: white;
+    margin: 0 auto;  
+    flex-wrap: wrap;  
+    padding: 10px 0px;
+    flex-direction:  column;
+}
+.s4 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 25px 70px;
+    max-width: 100%;
+    flex-direction: column-reverse;
+
+}
+.s4cont {
+    display: block;
+    align-items: center;
+    align-content: center;
+
+   
+}
+.s4img {
+    
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+    max-width: 100%;
+    align-self: center;
+
+}
+.s4 h2 {
+    font-family: 'Luckiest Guy';    
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: #23272a;
+    max-width: 603px;
+    margin: auto;
+
+}
+.s4 p {
+    margin-top: 15px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #23272a;
+    max-width: 802px;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .s4img {
+     padding: 0px;
+     margin-left: 0px;
+    }
+     #img4 {
+         height: 30vh;
+         margin-top: 0px;
+         margin-bottom: 0px;
+     }
+   .s4 {
+     flex-wrap: wrap;
+     
+   }
+   .s4 h2 {
+     text-align: start;
+     justify-content: space-between;
+     font-size: 24px;
+     margin: 0 10px;
+     width: 350px;
+   }
+   .s4 p {
+     text-align: start;
+     justify-content: space-between;
+     font-size: 16px;
+     margin: 32px 10px;
+     width: 350px;
+   }
+ }
+ 
+ .s5 {
+    display: flex;
+    max-width: 1280px;
+    height: 132px;
+    background: #23272a;
+    margin: 0 auto;  
+    flex-wrap: wrap;  
+    padding: 10px 0px;
+    
+ }
+ .disclogo {
+    display: flex;
+    place-items: center center;
+    margin: auto;
+    
+  
+    
+ }
